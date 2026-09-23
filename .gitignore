@@ -1,7 +1,10 @@
 __pycache__/
 *.pyc
 .env
-data/*.xlsx
 data/*.json
 data/*.lock
 *.log
+
+# The seed and tracker workbooks ARE committed (see README): this is an
+# ephemeral session container, so the repo is the only durable place to
+# keep the working copy between sessions.
