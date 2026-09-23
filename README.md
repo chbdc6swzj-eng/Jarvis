@@ -18,7 +18,26 @@ described below. Other Eastman products or a different paperwork layout
 from Eastman/the freight forwarder will need the parser extended (see
 `src/parser.py`).
 
-## How it works
+## Two ways to run this
+
+**Right now, without any Azure setup:** hand over the PDF directly (attach
+it here in chat, or download it yourself) and run:
+
+```bash
+python -m src.process_pdf path/to/document.pdf
+```
+
+This does everything except the mailbox polling: OCR, parsing, cross-checks,
+and appending to the tracker workbook, with the same duplicate-safety net
+(it refuses to log a shipment whose Delivery No is already in the sheet).
+No `AZURE_*` / `MAILBOX_USER` variables are needed for this path -- only the
+`TRACKER_*` settings in `.env`.
+
+**Later, once the Azure AD app is set up:** run `python -m src.main` on a
+schedule (cron) and it polls the mailbox for you, downloading and processing
+matching attachments automatically. See the Azure setup steps below.
+
+## How it works (automatic/email mode)
 
 ```
 cron (every N min)

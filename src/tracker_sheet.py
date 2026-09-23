@@ -68,6 +68,15 @@ def _find_blank_rows(ws, count: int, max_scan: int = 5000) -> list[int]:
     return rows
 
 
+def _existing_delivery_numbers(ws) -> set[str]:
+    existing = set()
+    for row in range(_FIRST_DATA_ROW, ws.max_row + 1):
+        value = ws.cell(row=row, column=_COL_DN).value
+        if value is not None:
+            existing.add(str(value))
+    return existing
+
+
 def append_shipment(tracker_path: str, sheet_name: str, shipment: ShipmentRecord) -> list[int]:
     if sheet_name not in openpyxl.load_workbook(tracker_path, read_only=True).sheetnames:
         raise TrackerError(
@@ -77,6 +86,17 @@ def append_shipment(tracker_path: str, sheet_name: str, shipment: ShipmentRecord
 
     wb = openpyxl.load_workbook(tracker_path)
     ws = wb[sheet_name]
+
+    # Without an email-message-id store to track what's already been handled
+    # (e.g. when a PDF is processed directly instead of via the mailbox),
+    # this is the only guard against logging the same shipment twice.
+    existing = _existing_delivery_numbers(ws)
+    dupes = [c.delivery_no for c in shipment.containers if c.delivery_no and c.delivery_no in existing]
+    if dupes:
+        raise TrackerError(
+            f"Delivery No(s) {dupes} already exist in '{sheet_name}' -- this shipment looks "
+            "like it's already logged. Not writing it again."
+        )
 
     rows = _find_blank_rows(ws, len(shipment.containers))
 
