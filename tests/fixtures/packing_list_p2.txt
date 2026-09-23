@@ -1,0 +1,42 @@
+Eastman Chemical Company
+"PACKING LIST***** Page: :2/2
+Print Date: Jun. 18, 2026 Doc Id:
+Time: 05:03:43 Sys Id: PRD
+Batch/ In Pkg/ Area Total # wwerneweneenn---ePer Package ID------------------
+Package Id} Box UM Of Pkgs Gross Wt Tare Wt Net Wt UM
+Delivery No : 93065723
+Shipment No : 84091370
+Container No : TCLU8013521
+Item # : 000010
+Product : P0210413 Eastman Texanol(TM) Ester Alcohol, Bulk
+Customer Ord No : PO Release No 5
+Customer Product ID :
+Batch(es)
+7626001267 21573.000 0.000 21573.000 KG
+***Product Total 7 21573.000 0.000 21573.000 KG
+**Cubic Measure : 23.795 M3
+***Container Total a 21573.000 0.000 21573.000 KG
+*Cubic Measure f 23.795 M3
+Seals : 5752550 5752552 5754056
+Delivery No > 93065724
+Shipment No > 84091371
+Container No : HOYU9684733
+Item # : 000010
+Product : P0210413 Eastman Texanol(TM) Ester Alcohol, Bulk
+Customer Ord No : PO Release No :
+Customer Product ID :
+Batch(es)
+7626001269 20357.000 0.000 20357.000 KG
+***Product Total : 20357.000 0.000 20357.000 KG
+**Cublc Measure : 22.454 M3
+***Container Total 7 20357.000 0.000 20357.000 KG
+**Cubic Measure 22.454 M3
+Seals : 5754051 5754052 5754054
+**Order Summary H 85411.000 0.000 85411.000 KG
+***Cubic Measure : 94.209 M3
+**Total Containers B ' 4
+Emergency Contact:
+CHEMTREC 1-800-424-9300
++1-703-527-3887(CCN7321)
+NCEC +44 1235 239670
+***End of Document - Printed by : XC27595 CERTIFIED TRUE AND CORRECT BY:

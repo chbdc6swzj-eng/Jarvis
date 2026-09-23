@@ -1,0 +1,4 @@
+# Poll every 15 minutes. Adjust the path and interval as needed.
+# `crontab -e` and paste a line like this in:
+#
+# */15 * * * * cd /opt/jarvis && /opt/jarvis/venv/bin/python -m src.main >> /opt/jarvis/data/run.log 2>&1

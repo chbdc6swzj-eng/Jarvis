@@ -1,0 +1,45 @@
+Eastman Chemical Company
+sees*D ACKING LIST***** Page: :1/2
+Print Date: Jun. 18, 2026 Doc Id:
+Time: 05:03:43 Sys Id: PRD
+Ship To: 898142 Bill To: 7000298
+EASTMAN CHEMICAL EUROPE SARL EASTMAN CHEMICAL EUROPE SARL
+(BRANCH) OFFICE NO. A1415
+A SUBSIDIARY OF EASTMAN CHEMICAL CO TOWER A
+PETROCHEM MIDDLE EAST FZE JAFZA ONE
+JAFZA, ROUND ABOUT #7 JEBEL ALI FREE ZONE
+00000 DUBAI 00000 DUBAI
+UNITED ARAB EMIRATES NITED ARAB EMIRATES
+Order No : §7731272
+Customer Ord No 5
+CSR 5
+Batch/ in Pkg/ Area Total # emeomanenen----Per Package ID---------------------
+Package Id) Box UM Of Pkgs Gross Wt Tare Wt Net Wt UM
+Delivery No : 93065721
+Shipment No : 84091248
+Container No : HGTU2418040
+Item # : 000010
+Product : P0210413 Eastman Texanol(TM) Ester Alcohol, Bulk
+Customer Ord No : PO Release No :
+Customer Product ID :
+Batch(es)
+7626001271 21736.000 0.000 21736.000 KG
+**Product Total H 21736.000 0.000 21736.000 KG
+***Cubic Measure 5 23.975 M3
+***Container Total 7 21736.000 0.000 21736.000 KG
+**Cublic Measure : 23.975 M3
+Seals : 5752541 5752546 5754055
+Delivery No : 93065722
+Shipment No : 84091249
+Container No : RLTU2626928
+Item # : 000010
+Product : P0210413 Eastman Texanol(TM) Ester Alcohol, Bulk
+Customer Ord No : PO Release No :
+Customer Product ID :
+Batch(es)
+7626001268 21745.000 0.000 21745.000 KG
+**Product Total 4 21745.000 0.000 21745.000 KG
+***Cubic Measure 4 23.985 M3
+***Container Total : 21745.000 0.000 21745.000 KG
+**Cubic Measure 7 23.985 M3
+Seals : 5754043 5754045 5754049

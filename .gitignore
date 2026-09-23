@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+data/*.xlsx
+data/*.json
+data/*.lock
+*.log
